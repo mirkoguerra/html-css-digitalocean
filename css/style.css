@@ -14,6 +14,9 @@
 .bg-grey {
   background-color: #F3F5F9;
 }
+.bg-dark {
+  background-color: #031C4E;
+}
 /* GENERAL */
 
 /* HEADER */
@@ -46,7 +49,9 @@ main .get{
 
 }
 /* FOOTER */
-footer
+footer {
+  
+}
 /* MEDIA QUERY */
 @media screen and (max-width: 767px) {
 

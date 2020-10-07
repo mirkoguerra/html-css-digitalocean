@@ -5,13 +5,26 @@
 .h-100 {
   height: 100px;
 }
+.h-500 {
+  height: 500px;
+}
 .bg-white {
   background-color: white;
+}
+.bg-blue {
+  background-color: #0061FE;
 }
 /* HEADER */
 .nav-bar {
 
 }
+.jumbo {
+
+}
+/* MAIN */
+
+/* FOOTER */
+
 /* MEDIA QUERY */
 @media screen and (max-width: 767px) {
 

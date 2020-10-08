@@ -124,8 +124,42 @@ main .service a:hover {
 main .service hr {
   margin: 5px 0;
 }
-main .development{
-
+main .development h1{
+  margin-bottom: 50px;
+}
+main .development .card {
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+main .development .card img {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+main .development .card span:first-of-type {
+  color: grey;
+  margin-bottom: 10px;
+}
+main .development .card span:nth-of-type(2), main .development .card span:nth-of-type(3) {
+  font-size: 1.2rem;
+  display: block;
+}
+main .development a {
+  color: #00239D;
+}
+main .development .card a {
+  display: block;
+  font-size: 1.2rem;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main .development .card a:hover {
+  text-decoration: none;
+  color: green;
+}
+main .development a .fa-circle {
+  margin-top: 20px;
+  margin-bottom: 40px;
 }
 main .get a {
   display: inline-block;
@@ -144,8 +178,40 @@ main .get a:hover {
   border: 1px solid white;
 }
 /* FOOTER */
-footer {
-
+footer .container>.row {
+  margin-top: 50px;
+}
+footer .row .row>* {
+  margin-top: 20px;
+}
+footer span {
+  display: block;
+  color: lightgrey;
+}
+footer p {
+  color:grey;
+}
+footer a {
+  color: lightgrey;
+}
+footer a:hover {
+  color: white;
+  text-decoration: none;
+}
+footer a i {
+  margin-right: 10px;
+}
+footer strong {
+  margin-top: 20px;
+  color: white;
+  font-size: 1.6rem;
+}
+footer li {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+footer #support {
+  margin-bottom: 50px;
 }
 /* MEDIA QUERY */
 @media screen and (max-width: 767px) {
@@ -158,6 +224,9 @@ footer {
   main .service span {
     margin-left: 40px;
   }
+  footer #community {
+    margin-bottom: 50px;
+  }
 }
 @media screen and (min-width: 1200px) {
   main .service span {
@@ -165,5 +234,8 @@ footer {
   }
   main .designed img{
     margin-top: 20px;
+  }
+  footer #products {
+    margin-bottom: 50px;
   }
 }

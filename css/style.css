@@ -5,6 +5,9 @@
 .h-100 {
   height: 100px;
 }
+.h-130 {
+  height: 130px;
+}
 .rel {
   position: relative;
 }
@@ -41,10 +44,10 @@ span {
 header .nav-bar {
   height: 66px;
   line-height: 66px;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   z-index: 10;
-  width: 100%; */
+  width: 100%;
 }
 header .nav-bar img {
   height: 28px;
@@ -65,6 +68,9 @@ header .nav-bar li a.nav-top-button {
 header .nav-bar li a.nav-top-button:hover {
   color: white;
   background-color: #0061FE;
+}
+header .jumbo {
+  margin-top: 66px;
 }
 header .jumbo h1 {
   color: white;
@@ -132,8 +138,28 @@ main .logos span a:hover {
   text-decoration: none;
   color: #0061FE;
 }
-main .deploy{
-
+main .deploy p{
+  color: grey;
+}
+main .deploy #left-border {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  border-left: 2px solid grey;
+}
+main .deploy ul li {
+  text-align: left;
+  color: grey;
+  margin-left: 5px;
+}
+main .deploy .row .row {
+  text-align: left;
+}
+main .deploy strong {
+  display: block;
+}
+main .deploy span {
+  color: grey;
+  font-size: 1.2rem;
 }
 main .designed img{
   margin-top: 50px;

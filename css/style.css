@@ -1,12 +1,6 @@
 /* HELPER */
-.border {
-  border: 1px solid black;
-}
-.h-100 {
-  height: 100px;
-}
 .h-130 {
-  height: 130px;
+  height: 110px;
 }
 .rel {
   position: relative;
@@ -154,10 +148,10 @@ main .deploy ul li {
 main .deploy .row .row {
   text-align: left;
 }
-main .deploy strong {
+main .deploy strong, main .features strong {
   display: block;
 }
-main .deploy span {
+main .deploy span, main .features span {
   color: grey;
   font-size: 1.2rem;
 }
@@ -180,8 +174,26 @@ main .designed a {
 main .designed .row {
   margin-bottom: 10px;
 }
-main .features{
-
+main .features .row>div:not(:nth-of-type(1)) {
+  text-align: left;
+}
+main .features h1{
+  margin-bottom: 3.6rem;
+}
+main .features a {
+  font-size: 1.4rem;
+  color: #0061FE;
+  display: block;
+  margin-bottom: 5px;
+}
+main .features a:hover {
+  color: #00239D;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+main .features .reliable {
+  margin-bottom: 3.6rem;
 }
 main .service #tab-1, main .service #tab-2{
   text-align: left;
@@ -298,6 +310,9 @@ footer #support {
 
 }
 @media screen and (min-width: 992px) and (max-width: 1199px) {
+  .h-130 {
+    height: 130px;
+  }
   header .card {
     margin-top: 3.6rem;
   }
@@ -309,6 +324,9 @@ footer #support {
   }
 }
 @media screen and (min-width: 1200px) {
+  .h-130 {
+    height: 130px;
+  }
   header .card {
     margin-top: 3.6rem;
   }
